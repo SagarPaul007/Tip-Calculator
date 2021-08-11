@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <div id="container">
+      <div class="title">
+        <h1><span>SPLI</span><br /><span>TTER</span></h1>
+      </div>
+      <div class="app">
+        <div class="left">
+          <div class="bill">
+            <h3>Bill</h3>
+            <div class="img">
+              <img src="images/icon-dollar.svg" alt="" srcset="">
+              <input class="bill-input" type="number" placeholder="" name="bill" />
+            </div>
+          </div>
+          <div class="select">
+            <h3>Select Tip %</h3>
+            <div class="tip">
+              <div class="item five">5%</div>
+              <div class="item ten">10%</div>
+              <div class="item fifteen">15%</div>
+              <div class="item twenty-five">25%</div>
+              <div class="item fifty">50%</div>
+              <div class="item custom">
+                <input class="custom-input" type="text" placeholder="Custom" />
+              </div>
+            </div>
+          </div>
+          <div class="people">
+            <h3>Number of People</h3>
+            <div class="img">
+              <img src="images/icon-person.svg" alt="" srcset="">
+              <input class="people-input" type="number" placeholder="" />
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="tip-amount">
+            <div class="heading">
+              <h3>Tip Amount</h3>
+              <h5>/ person</h4>
+            </div>
+            <div class="value"><h2 class="tip-value">$0.00</h2></div>
+          </div>
+          <div class="total-amount">
+            <div class="heading">
+              <h3>Total</h3>
+              <h5>/ person</h4>
+            </div>
+            <div class="value"><h2 class="total-value">$0.00</h2></div>
+          </div>
+          <div class="temp btn-div"><a class="btn" href="#">SHOW</a></div>
+          <div class="temp reset"><a class="btn" href="#">RESET</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Sagar Paul</a>.
+    </div> -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
